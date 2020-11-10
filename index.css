@@ -1,0 +1,212 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,400;1,500;1,900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+  font-family: "roboto", sans-serif;
+}
+
+/* a {
+  text-decoration: none;
+} */
+body {
+  color: white;
+  margin: 0px;
+  padding: 0px;
+  background-color: aliceblue;
+}
+/* .first-container {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: absolute;
+  background-color: aqua;
+} */
+.header {
+  background-color: rgb(39, 85, 145);
+  /* margin: auto; */
+  /* width: 100%; */
+  /* text-align: center; */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 94px;
+}
+
+.header-child {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: x-large;
+}
+.email-box {
+  display: flex;
+}
+h1 {
+  margin: 0;
+}
+.password a {
+  display: flex;
+  margin-top: 10px;
+  color: rgb(25, 125, 240);
+  font-size: 14px;
+  margin-top: 10px;
+}
+.logo-button {
+  float: left;
+  margin-top: 18px;
+  margin-left: 20px;
+}
+.logo-button input {
+  background-color: rgb(41, 117, 204);
+  border: -1px solid rgb(44, 88, 145);
+  border-radius: 2px;
+  color: aliceblue;
+  width: 60px;
+  height: 25px;
+}
+.email {
+  margin-right: 20px;
+  margin-left: 10px;
+}
+
+.email label {
+  font-size: 14px;
+}
+
+.password label {
+  font-size: 14px;
+}
+
+.email input {
+  height: 25px;
+}
+.password input {
+  height: 25px;
+}
+
+.location-div p {
+  font-size: 25px;
+  color: rgb(25, 57, 100);
+  width: 64%;
+  margin-left: 186px;
+  margin-top: 70px;
+  font-weight: 900;
+  letter-spacing: 1px;
+}
+
+.location-div img {
+  width: 565px;
+  margin-left: 186px;
+}
+.second-container {
+  display: flex;
+  background-color: aliceblue;
+}
+.create-account {
+  display: flex;
+  flex-direction: column;
+  margin-left: 160px;
+}
+.create-account h1 {
+  color: black;
+  font-size: 40px;
+  margin-top: 20px;
+  color: rgb(46, 44, 44);
+}
+.create-account h3 {
+  color: rgb(46, 44, 44);
+  font-size: 20px;
+}
+
+.email-text {
+  width: 540px;
+  margin-top: 15px;
+  height: 50px;
+  border-radius: 6px;
+  border: groove;
+}
+
+.name-box {
+  width: 258px;
+  margin-top: 30px;
+  height: 50px;
+  border-radius: 6px;
+  border: groove;
+  margin-right: 21px;
+}
+input::-webkit-input-placeholder {
+  font-size: 20px;
+  line-height: 3;
+  padding: 20px;
+}
+.date-class {
+  width: 85px;
+  height: 39px;
+  font-size: 17px;
+  margin-top: 13px;
+  border: 1px groove rgb(12, 138, 241);
+}
+.h2-hd {
+  color: black;
+  font-size: 20px;
+  margin-top: 18px;
+}
+.date-prg {
+  color: rgb(47, 88, 165);
+  width: 85%;
+}
+.prg-div {
+  display: flex;
+  margin-top: 10px;
+  margin-left: 13px;
+  width: 41%;
+}
+.main-date-div {
+  display: flex;
+  font-size: 17px;
+}
+.mail-slt {
+  color: black;
+  border: groove;
+}
+.gender-div {
+  color: black;
+  color: black;
+  font-size: 26px;
+  margin-top: 20px;
+}
+.end-prg {
+  width: 52%;
+  font-size: 16px;
+  color: gray;
+  margin-top: 30px;
+}
+
+.button {
+  width: 30%;
+  height: 49px;
+  border-radius: 7px;
+  background-color: rgb(64, 168, 64);
+  margin-top: 46px;
+  font-size: 27px;
+  color: white;
+}
+.last-hd {
+  color: gray;
+  font-size: 17px;
+  margin-top: 50px;
+  text-decoration: none;
+}
+
+.last-hd a {
+  text-decoration: none;
+  color: rgb(37, 94, 180);
+}
